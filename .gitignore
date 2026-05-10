@@ -108,7 +108,6 @@ artifacts/
 data/
 logs/
 *.pkl
-*.csv
 *.tsv
 *.h5
 *.model
