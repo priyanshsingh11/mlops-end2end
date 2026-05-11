@@ -1,9 +1,4 @@
-# from src.logger import logging 
-# from src.exception import MyException
-# import sys
+from src.pipline.training_pipeline import TrainPipeline
 
-# try:
-#     logging.info("Testing the custom logger and exception...")
-#     a = 1 + 'Z' # This will trigger a TypeError
-# except Exception as e:
-#     raise MyException(e, sys) from e
+pipeline = TrainPipeline()
+pipeline.start_data_ingestion() # Call this instead of run_pipeline
