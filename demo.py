@@ -1,4 +1,4 @@
 from src.pipline.training_pipeline import TrainPipeline
 
 pipeline = TrainPipeline()
-pipeline.start_data_ingestion() # Call this instead of run_pipeline
+pipeline.run_pipeline() # This method calls both ingestion and validation
